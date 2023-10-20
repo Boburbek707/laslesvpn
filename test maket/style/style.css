@@ -1,0 +1,416 @@
+@import url(./fonts.css);
+:root {
+    --font-regular: "Rubik-Regular";
+    --font-medium: "Rubik-Medium";
+    --font-semibold:"Rubik-SemiBold";
+    --font-bold: "Rubik-Bold";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* hederni boshlanishi */
+.page-header {
+    width: 100%;
+    padding-top: 45px;
+}
+
+.container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-title {
+    font-size: 20px;
+    color: black;
+    font-weight: var(--font-semibold);
+}
+.nav-links  {
+    font-family: var(--font-regular);
+    font-size: 16px;
+    color: #4F5665;
+    font-weight: var(--font-regular);
+}
+.sign-in {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.sign-in_link {
+    font-size: 16px;
+    color: black;
+    font-weight: var(--font-regular);
+    
+}
+.btn {
+    border-radius: 48px;
+    width: 150px;
+    height: 45px;
+    border: 1px solid #F53855;
+    color: #F53855;
+    background-color: #fff;
+}
+.header-logo {
+    width: auto;
+}
+/* hederni tugashi */
+/* hederni hover qilish */
+/* heder hoveri tugashi */
+/* heder banner info ikkinchi qismi */
+.header-main_info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 35px;
+}
+.header-title_info {
+    font-size: 50px;
+    font-family: var(--font-semibold);
+    color: black;
+    width: 555px;
+    height: 140px;
+}
+.header-text {
+    font-size: 16px;
+    color: #4F5665;
+    font-weight: var(--font-medium);
+    padding-block: 20px 50px;
+}
+.header-btn {
+    width: 200px;
+    height: 60px;
+    border: 1px solid #F53855;
+    border-radius: 10px;
+    background-color: #F53855;
+    color: #fff;
+    font-family: var(--font-bold);
+    font-size: 16px;
+}
+/* heder banner infoni ikkinchi qismi tugashi */
+/* heder banner infoni ikkinchi qismi boshlanishi hover */
+/* heder banner infoni ikkinchi qismi tugashi hover*/
+/* main banner boshlanishi */
+/* birinchi section boshlanishi */
+.main-section {
+    width: 950px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+   
+}
+.main-section_one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.section-one {
+    width: 49px;
+    height: 30px;
+    font-size: 25px;
+    font-family: var(--font-semibold);
+    padding-bottom: 40px;
+}
+.main-one_text {
+    width: 53px;
+    height: 30px;
+    font-size: 20px;
+    font-family: var(--font-regular);
+    color: #4F5665;
+}
+/* birinchi section tugashi */
+/* ikkinchi section boshlanishi */
+.section-banner {
+    width: 508px;
+    height: 100%;
+    padding-bottom: 100px;
+   
+}
+.main-section_two {
+    background-color:#F7F7F7;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.info-title {
+    width: 384px;
+    height: 100px;
+    font-size: 36px;
+    font-family: var(--font-regular);
+    line-height: 50px;
+}
+.info-text {
+    width: 427px;
+    height: 60px;
+    font-size: 16px;
+    font-family: var(--font-regular);
+    color: #4F5665;
+    padding-block: 20px;
+}
+.info-text_second {
+    display: flex;
+    align-items: center;
+    padding-block: 15px;
+    font-size: 14px;
+    font-family: var(--font-regular);
+    color:#4F5665;
+}
+/* ikkinchi section tugashi */
+/* sectiondagi title boshlanishi*/
+.section-subtitle_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 50px;
+    font-size: 25px;
+    padding-top: 70px;
+    font-family: var(--font-regular);
+}
+.section-subtitle_text {
+    margin: 0 auto; 
+    display: flex;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    font-size: 15px;
+    padding-top: 40px;
+    font-family: var(--font-regular);
+}
+/* sectiondagi title tugashi */
+/* uchinchi section boshlanishi */
+.section-box {
+    width: 300px;
+    height: 760px;
+    border-radius: 10px;
+    border: 1px solid ;
+    margin: 60px ;
+    margin-inline: 30px;
+}
+.section-box_logo {
+    width: 144px; 
+     height: 165px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 79px 40px;
+}
+.section-box_title {
+    text-align: center;
+    height: 30px;
+    font-size: 16px;
+    font-family: var(--font-regular);
+}
+.section-box_text {
+    display: flex;
+    align-items: center;
+    padding-block: 10px;
+    font-size: 14px;
+    font-family: var(--font-regular);
+    color:#4F5665;
+    padding-left: 50px;
+} 
+.box-end_title-one {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   padding-block: 130px 13px;
+    font-size: 24px;
+    font-family: var(--font-semibold);
+    padding-bottom: 40px;
+}
+.box-end_title-two {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-block: 90px 13px;
+     font-size: 24px;
+     font-family: var(--font-semibold);
+     padding-bottom: 40px;
+ }
+ .box-end_title-third {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-block: 45px 13px;
+     font-size: 24px;
+     font-family: var(--font-semibold);
+     padding-bottom: 40px;
+ }
+.box-button_one {
+    border-radius: 48px;
+    width: 150px;
+    height: 45px;
+    border: 1px solid #F53855;
+    color: #F53855;
+    background-color: #fff;
+    margin: 1px 70px 50px;
+}
+.box-button_two {
+    border-radius: 48px;
+    width: 150px;
+    height: 45px;
+    border: 1px solid #F53855;
+    color: #F53855;
+    background-color: #fff;
+    margin: 1px 70px 50px;
+}
+.box-button_third {
+    border-radius: 48px;
+    width: 150px;
+    height: 45px;
+    border: 1px solid ;
+    color: #fff;
+    background-color: #F53855;
+    margin: 1px 70px 50px;
+}
+/* uchinchi section tugashi */
+/* 4- section global boshlanishi */
+.global-title {
+     display: flex;
+    margin: 0 auto;
+    width: 383px;
+    height: 100px;
+    font-size: 35px;
+    text-align: center;
+}
+.global-text {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+    font-size: 16px;
+    text-align: center;
+    color: #4F5665;
+}   
+.global-logo {
+    display: flex;
+    margin: 0 auto;
+}
+/* 4- section global tugashi */
+/* netflix boshlanishi */
+.net-logos {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 0 auto;
+}
+.happy-title {
+    width: 447px;
+    height: 100px;
+    font-size: 26px;
+    font-family: var(--font-regular);
+    margin: 0 auto;
+    text-align: center;
+}
+.happy-text {
+    width: 555px;
+    height: 60px;
+    font-size: 16px;
+    font-family: var(--font-regular);
+    margin: 0 auto;
+    text-align: center;
+    color: #4F5665;
+}
+.sub {
+    width: 100%;
+    padding-block: 58px;
+    
+}
+.sub-title {
+    width: 410px;
+    height: 80px;
+    font-size: 36px;
+    font-family: var(--font-regular);
+    
+}
+.sub-text {
+    padding-top: 20px;
+    width: 410px;
+    height: 16px;
+    font-size: 16px;
+    font-family: var(--font-regular);
+    color: #4F5665;
+}
+.sub-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-button {
+    color: #fff;
+    font-family: var(--font-bold);
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 10px;
+    background-color: #F53838;
+    padding: 17px 65px;
+}
+/* futer boshlanishi */
+.learn {
+    height: 50px;
+}
+
+.learn-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+
+.learn-nav_link {
+    color: var(--primary);
+    font-family: var(--font-primary);
+    font-size: var(--text-font-size);
+    padding-bottom: 15px;
+    transition: 0.4s;
+}
+.learn-nav_links {
+    color: var(--secondary);
+    font-family: var(--font-primary);
+    font-size: var(--subtext-font-size);
+    transition: 0.4s;
+}
+.fut-end {
+    background-color: #F8F8F8;
+}
+.fut-text {
+    width: 340px;
+    height: 61px;
+    color: #4F5665;
+    padding-top: 20px;
+}
+.fut-first {
+    padding-top: 125px;
+}
+.fut-link_end {
+    color: #4F5665;
+}
+
+/* netflix tugashi */
+/* main banner tugashi */
+
